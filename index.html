@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Faça Aqui sua nota fiscal</h1>
+    <div class="container">
+        <p>Número da nota: <span id="numeroNota"></span></p>
+        <p>Conteúdo:</p> <input type="text" id="conteudo">
+        <p>Peso bruto:</p> <input type="text" id="pesoBruto">
+        <p>Peso líquido:</p> <input type="text" id="pesoLiquido">
+        <p>Valor da nota:</p> <input type="text" id="valorNota">
+        <p>Valor líquido:</p> <input type="text" id="valorLiquido">
+        <p>Quantidade</p> <input type="text" id='quantidade'>
+        <br><br>
+        <button id='btn'onclick="gerarPDF()">Gerar nota</button>
+    </div>
+
+    <script src="app.js"> 
+   
+    </script>
+</body>
+</html>
